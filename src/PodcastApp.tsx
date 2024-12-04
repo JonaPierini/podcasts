@@ -1,3 +1,5 @@
+import { PodcastsList } from "./presentation/page/PodcastsList";
+
 export const PodcastApp = () => {
-  return <div>PodcastApp</div>;
+  return <PodcastsList></PodcastsList>;
 };
